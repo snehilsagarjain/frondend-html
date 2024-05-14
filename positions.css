@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+
+    display: inline-block;
+}
+
+div.f {
+    position: relative;
+    top: 20px;
+}
+
+div.p {
+    position: relative;
+}
+
+div.s {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+
+div.t {
+    position: fixed;
+    /* left: 10px; */
+}
+
+div.st {
+    position: sticky;
+    bottom: 0;
+}
