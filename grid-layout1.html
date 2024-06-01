@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: 1fr 2fr 1fr 1fr;
+            height: 100vh;
+        }
+
+        #box1 {
+            /* text-align: center; */
+            background-color: aqua;
+        }
+
+        .row2 {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+        }
+
+        #box2 {
+            background-color: orangered;
+        }
+
+        .col2 {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        #box3 {
+            background-color: blue;
+        }
+
+        #box4 {
+            background-color: yellow;
+        }
+
+        .row3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        #box5 {
+            background-color: purple;
+        }
+
+        #box6 {
+            background-color: lightgreen;
+        }
+
+        #box7 {
+            background-color: orange;
+        }
+
+        #box8 {
+            background-color: blue;
+        }
+
+        #box9 {
+            background-color: brown;
+        }
+
+        #box10 {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="box1">1</div>
+        <div class="row2">
+            <div id="box2">2</div>
+            <div class="col2">
+                <div id="box3">3</div>
+                <div id="box4">4</div>
+            </div>
+        </div>
+        <div class="row3">
+            <div id="box5">5</div>
+            <div id="box6">6</div>
+            <div id="box7">7</div>
+        </div>
+        <div class="row3">
+            <div id="box8">8</div>
+            <div id="box9">9</div>
+            <div id="box10"></div>
+        </div>
+    </div>
+</body>
+
+</html>

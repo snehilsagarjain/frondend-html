@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    padding: 20px 120px;
+}
+
+.inner-box {
+    border: red 2px solid;
+}
+
+.nav {
+    height: 200px;
+}
+
+.li {
+    margin-right: 40px;
+}
+
+.su {
+    margin-right: 0px;
+}
+
+.image1 {
+    border: green 2px solid;
+}
+
+.image1 span {
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    /* margin: 25px; */
+    border: red 2px solid;
+}
+
+image1 img {
+    border-radius: 20px;
+    width: 170px;
+    height: 120px;
+    border: red 2px solid;
+}
+
+.l {
+    margin-right: 0px;
+}
+
+/* image1 h3 {
+    display: inline;
+} */
+
+/* .f {
+    height: 38px;
+    border-bottom: rgb(218, 206, 206) .5px solid;
+    border: red 2px solid;
+    padding: 20px 120px;
+}
+
+.m {
+    width: 200px;
+    border: 1px black solid;
+    /* box-shadow: 0 0 8px black;
+    margin: 10px 10px; */
+/* }
+
+.cn {
+    font-family: arial black;
+    font-size: 250%; */
+/* margin: 10px 10px; */
+/* border: red 2px solid;
+    padding: 0px 0px;
+    margin: 10px;
+}
+
+.li {
+    border: 2px solid red;
+    margin-left: 50px; */
+/* margin: 100px 10px; */
+/* }
+
+.su {
+    border: 2px solid red;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.r {
+    background-color: green;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.i { */
+/* margin: 30px 30px; */
+/* width: 500px; */
+/* border: green solid 7px;
+}
+
+.sec {
+    border: blue 2px solid; */
+/* } */

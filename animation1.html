@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            animation-name: box;
+            animation-duration: 7s;
+            position: relative;
+            animation-iteration-count: infinite;
+        }
+
+        .inner-box {
+            width: 30px;
+            height: 30px;
+            border: 2px solid black;
+            visibility: hidden;
+            animation-name: box1;
+        }
+
+        @keyframes box1 {
+            0% {
+                top: 0px;
+                left: 0px;
+            }
+
+            25% {
+                top: 0px;
+                left: 400px;
+                border-radius: 50%;
+            }
+
+            50% {
+                top: 400px;
+                left: 1200px;
+                border-radius: 30%;
+                visibility: visible;
+            }
+
+            75% {
+                top: 400px;
+                left: 0px;
+            }
+
+            100% {
+                top: 0px;
+                left: 0px;
+            }
+        }
+
+        @keyframes box {
+            0% {
+                top: 0px;
+                left: 0px;
+            }
+
+            25% {
+                top: 0px;
+                left: 400px;
+                border-radius: 50%;
+            }
+
+            50% {
+                top: 400px;
+                left: 1200px;
+                border-radius: 30%;
+                /* 
+                .inner-box {
+                    visibility: visible;
+                } */
+            }
+
+            75% {
+                top: 400px;
+                left: 0px;
+            }
+
+            100% {
+                top: 0px;
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="inner-box"></div>
+    </div>
+</body>
+
+</html>
